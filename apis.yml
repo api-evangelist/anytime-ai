@@ -1,9 +1,9 @@
 aid: anytime-ai
 
 name: Anytime AI
+image: https://framerusercontent.com/assets/8LZa600hJwt5uutnkTkBsVkPu1s.png
 
-description: 'Anytime AI is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Anytime AI provides an AI‑powered legal assistant platform for plaintiff lawyers, offering tools for case analysis, discovery, demand letters, and settlement strategy. The company focuses on complex litigation, delivering a personalized agentic co‑worker that helps settle cases faster and at higher values. Its SaaS solution includes practice‑area specific modules such as personal injury, nursing‑home litigation, medical malpractice, truck accidents, and traumatic brain injury, with a roadmap for version 3.0.'
 
 url: https://raw.githubusercontent.com/api-evangelist/anytime-ai/refs/heads/main/apis.yml
 
@@ -21,7 +21,11 @@ created: '2026-09-25'
 modified: '2026-09-25'
 
 tags:
-- Company
+- AI
+- LegalTech
+- Litigation
+- SaaS
+- PlaintiffLawyers
 
 maintainers:
 - FN: Kin Lane
@@ -30,16 +34,41 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: Compliance
+  url: https://www.anytimeai.ai/security/
+- type: Newsroom
+  url: https://www.anytimeai.ai/resources/news/
+- type: DeveloperPortal
+  url: https://dev.anytimeai.ai/
+- type: Blog
+  url: https://www.anytimeai.ai/resources/blog/
+- type: TrustCenter
+  url: security/anytime-ai-trust-center.yml
 - type: Hosts
   url: hosts/anytime-ai-hosts.yml
-- type: Vendors
-  url: vendors/anytime-ai-vendors.yml
 - type: DomainSecurity
   url: security/anytime-ai-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.anytimeai.ai/
+- type: Documentation
+  url: https://www.anytimeai.ai/security/
+- type: Login
+  url: https://enterprise.anytimeai.ai/auth/amplify/login/
+- type: GettingStarted
+  url: https://www.anytimeai.ai/book-demo/
+- type: PrivacyPolicy
+  url: https://anytimeai-wordpress-storage.s3.us-east-1.amazonaws.com/2025/08/29161539/Anytime-AI-Data-Privacy-and-Security.pdf
 
 apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Developer portal pages render via JavaScript and no machine‑readable OpenAPI spec was found.
+  evidence:
+    - url: https://dev.anytimeai.ai/openapi.json
+      status: 404
+  checked: 2026-09-25
 x-enrichment:
   date: '2026-09-25'
   status: enriched

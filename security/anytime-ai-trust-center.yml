@@ -1,0 +1,13 @@
+generated: '2026-09-25'
+method: searched
+probe: true
+source: https://www.anytimeai.ai/security/
+url: https://www.anytimeai.ai/security/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://www.anytimeai.ai/security/
+  keywords:
+  - soc 2
+  - hipaa
